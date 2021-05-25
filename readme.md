@@ -25,10 +25,10 @@
 
 A function with a receiver is like a "method" - a function that belongs to an instance
 
+**Concrete types** - map, struct, int, string. Can only create values out of concrete types but not interfaces
+
 Interfaces are not generic types (other languages have generic types, Go does not)
 
-Interfaces are implicit. We don't manually have to say that our custom type satisifies
-some interface.
+Interfaces are implicit. We don't manually have to say that our custom type satisifies some interface.
 
 Interfaces are a contract to help us manage types. If our custom type's implementation of a function is broken then interfaces wont help us.
-
